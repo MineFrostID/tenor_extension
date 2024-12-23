@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tenor Search",
+  "description": "Extension for tenor.com",
+  "version": "1.0",
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html",
+    "default_title": "Tenor Search"
+  },
+  "permissions": ["activeTab", "storage", "webRequest", "scripting"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
